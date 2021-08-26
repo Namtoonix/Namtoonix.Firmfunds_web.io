@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Franklin Gothic !important;
+    position:  relative !important;
+}
+.clear {
+    clear: both !important;
+}
+/* Common  */
+.color-white {
+    color: #fff !important;
+}
+
+.font-58 {
+    font-size: 58px;
+    line-height: 80px;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+}
+.font-40 {
+    font-size: 40px;
+    line-height: 57px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+.font-26 {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+}
+.font-24 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+.font-20 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+.font-16 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.font-14 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+}
+.weight-800 {
+    font-weight: 800 !important;
+    letter-spacing: 0.2px !important;
+}
+
+/* Individual */
+/* 1. Nav */
+.container-box {
+    height: 800px;
+    width: 100%;
+    background-image: url(./image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+    margin-bottom: 140px;
+    background-color: #FAFAFA;
+}
+.navbar {
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80px;
+}
+.navbar .nav-text{
+    color: #fff !important;
+}
+.navbar .navbar-toggler {
+    display: none !important;
+}
+.register-btn {
+    padding: 0px 18px;
+}
+/* 2. Modal */
+.modal {
+    padding-top: 184px;
+    top: 0;
+    background-color: rgba(0,0,0,0) !important;
+    color: #fff !important;
+}
+.modal-content {
+    border: none !important;
+    background-color: rgba(0,0,0,0) !important;
+}
+.modal-dialog {
+    width:100%;
+}
+.modal-content {
+    padding: 30px;
+}
+.modal-body {
+    margin: 0 50px;
+}
+/* 3. Card */
+.card-container{
+    left: 50%;
+    transform: translateX(-50%);
+    top: 700px;
+    padding-bottom: 100px;
+}
+.container-content .card-setting {
+    width: 30%;
+}
+.statistical {
+    background-color: #FAFAFA;
+}
+.card-buy {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.card-buy p {
+    text-align: left;
+}
+.card-buy-item {
+    bottom: 0;
+    margin-top: auto;
+}
+.local {
+    width: 100%;
+    height: 829px;
+    background-image: url(./image/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: 1688px auto;
+}
+.footer {
+    background: linear-gradient(270deg, #D71489 -1.04%, #004788 100%);
+}
+.none-in-pc,
+.subscribe-form {
+    display: none !important;
+}
